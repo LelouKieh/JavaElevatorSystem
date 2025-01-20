@@ -1,0 +1,700 @@
+/Users/lelou/Library/Java/JavaVirtualMachines/corretto-11.0.21/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=64506:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/lelou/Desktop/NEU/CS5004/projects/finalproject-buildingelevatorsystem-part1/target/classes:/Users/lelou/.m2/repository/org/json/json/20231013/json-20231013.jar main.MainConsole
+Welcome to the Elevator System!
+This system will simulate the operation of an elevator system.
+The system will be initialized with the following parameters:
+Number of floors: 11
+Number of elevators: 8
+Number of people: 3
+The system will then be run and the results will be displayed.
+
+Press enter to continue.
+
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: Invalid command. Please try again.
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Up Requests:
+Down Requests:
+System Status: Out Of Service
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 0 8
+Request rejected. The elevator system is not running.
+Press enter to continue
+
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Up Requests:
+Down Requests:
+System Status: Out Of Service
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: start
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 0 9
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 2 8
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 3 5
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 0 10
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 2 8
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+2->8
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 10 7
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+2->8
+Down Requests:
+10->7
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 8 2
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+2->8
+Down Requests:
+10->7
+8->2
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 3 9
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+2->8
+3->9
+Down Requests:
+10->7
+8->2
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 4 5
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+2->8
+3->9
+4->5
+Down Requests:
+10->7
+8->2
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 6 1
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+2->8
+3->9
+4->5
+Down Requests:
+10->7
+8->2
+6->1
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: r 8 0
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+0->9
+2->8
+3->5
+0->10
+2->8
+3->9
+4->5
+Down Requests:
+10->7
+8->2
+6->1
+8->0
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s 5
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+[1|^|C  ]< -- --  2  3 --  5 -- --  8  9 -->
+[1|^|C  ]< -- --  2  3 -- -- -- --  8  9 10>
+[4|^|O 3]< -- -- -- -- --  5 -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[0|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests:
+Down Requests:
+10->7
+8->2
+6->1
+8->0
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s 10
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+[3|^|C  ]< -- -- -- -- --  5 -- --  8  9 -->
+[3|^|C  ]< -- -- -- -- -- -- -- --  8  9 10>
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests:
+Down Requests:
+10->7
+8->2
+6->1
+8->0
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s
+Invalid command. Please specify the number of steps.
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+[3|^|C  ]< -- -- -- -- --  5 -- --  8  9 -->
+[3|^|C  ]< -- -- -- -- -- -- -- --  8  9 10>
+[7|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests:
+Down Requests:
+10->7
+8->2
+6->1
+8->0
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s 1
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+[4|^|C  ]< -- -- -- -- --  5 -- --  8  9 -->
+[4|^|C  ]< -- -- -- -- -- -- -- --  8  9 10>
+[8|^|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Waiting[Floor 10, Time 5]
+Up Requests:
+Down Requests:
+10->7
+8->2
+6->1
+8->0
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s 5
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+[5|^|C  ]< -- -- -- -- -- -- -- --  8  9 -->
+[8|^|O 3]< -- -- -- -- -- -- -- -- --  9 10>
+Waiting[Floor 10, Time 3]
+[9|v|C  ]< --  1  2 -- -- --  6  7  8 -- -->
+[8|v|O 1]<  0 -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests:
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: h
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|O 3]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|O 1]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[10|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests:
+Down Requests:
+System Status: Stopping
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s 1
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|O 2]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[8|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[9|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests:
+Down Requests:
+System Status: Stopping
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s 5
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Out of Service[Floor 0]
+[5|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[3|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+[4|v|C  ]< -- -- -- -- -- -- -- -- -- -- -->
+Up Requests:
+Down Requests:
+System Status: Stopping
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: s 5
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Out of Service[Floor 0]
+Up Requests:
+Down Requests:
+System Status: Out Of Service
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: c
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+Down Requests:
+System Status: Running
+
+[start] Start the building
+[s steps] Run steps times [CR] one step
+[r start end] make a request 
+[h] halt building [c] continue building [q] quit >
+
+
+Enter your command: q
+Building Report:
+Number of Floors: 11
+Number of Elevators: 8
+Elevator Capacity: 3
+Elevator Reports:
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Waiting[Floor 0, Time 5]
+Up Requests:
+Down Requests:
+System Status: Running
+
+
+Process finished with exit code 0
